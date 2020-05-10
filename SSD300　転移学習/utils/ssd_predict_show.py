@@ -36,8 +36,9 @@ class SSDPredictShow():
         -------
         なし。rgb_imgに物体検出結果が加わった画像が表示される。
         """
+        #SSDで予測させ(RGB画像, 予測BBox, 予測ラベル, 確信度)を返す
         rgb_img, predict_bbox, pre_dict_label_index, scores = self.ssd_predict(
-            image_file_path, data_confidence_level)
+            image_file_path, data_confidence_level) 
 
         self.vis_bbox(rgb_img, bbox=predict_bbox, label_index=pre_dict_label_index,
                       scores=scores, label_names=self.eval_categories)
@@ -62,7 +63,7 @@ class SSDPredictShow():
         # rgbの画像データを取得
         img = cv2.imread(image_file_path)  # [高さ][幅][色BGR]
         height, width, channels = img.shape  # 画像のサイズを取得
-        rgb_img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+        rgb_img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)#BGR→RGB
 
         # 画像の前処理
         phase = "val"
@@ -75,7 +76,8 @@ class SSDPredictShow():
         self.net.eval()  # ネットワークを推論モードへ
         x = img.unsqueeze(0)  # ミニバッチ化：torch.Size([1, 3, 300, 300])
 
-        detections = self.net(x)
+        detections = self.net(x)#予測結果torch.Size([batch_num, クラス数, 200, 5])
+
         # detectionsの形は、torch.Size([1, 21, 200, 5])  ※200はtop_kの値
 
         # confidence_levelが基準以上を取り出す
@@ -85,7 +87,7 @@ class SSDPredictShow():
         detections = detections.cpu().detach().numpy()
 
         # 条件以上の値を抽出
-        find_index = np.where(detections[:, 0:, :, 0] >= data_confidence_level)
+        find_index = np.where(detections[:, 0:, :, 0] >= data_confidence_level)#確信度が(表示用の)閾値より大きいところはTrue(0:も0から最後まで)
         detections = detections[find_index]
         for i in range(len(find_index[1])):  # 抽出した物体数分ループを回す
             if (find_index[1][i]) > 0:  # 背景クラスでないもの

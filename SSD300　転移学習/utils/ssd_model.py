@@ -724,14 +724,37 @@ class Detect(Function):
 
         return output  # torch.Size([1, 21, 200, 5])
 
-# SSDクラスを作成する
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# SSDクラスを作成する(改良)
 
 
 class SSD(nn.Module):
 
-    def __init__(self, phase, cfg):
+    def __init__(self, phase, cfg, transfer_class_num=3): #transfer_class_num(転移学習のクラス数)を追加
         super(SSD, self).__init__()
-
+        self.transfer_class_num = transfer_class_num
         self.phase = phase  # train or inferenceを指定
         self.num_classes = cfg["num_classes"]  # クラス数=21
 
@@ -803,7 +826,7 @@ class SSD(nn.Module):
         # locのサイズは、torch.Size([batch_num, 8732, 4])
         # confのサイズは、torch.Size([batch_num, 8732, 21])
         loc = loc.view(loc.size(0), -1, 4)
-        conf = conf.view(conf.size(0), -1, self.num_classes)
+        conf = conf.view(conf.size(0), -1, self.transfer_class_num)#self.num_classes→transfer_class_num
 
         # 最後に出力する
         output = (loc, conf, self.dbox_list)
