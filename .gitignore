@@ -1,0 +1,7 @@
+data/nwcam/
+data/フレーム集/
+weights/
+.ipynb_checkpoints
+*.pyc
+*.pth
+*.json
