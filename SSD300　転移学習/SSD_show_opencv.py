@@ -252,17 +252,6 @@ video_path = input('動画のパスを入力してください>')
 cap = cv2.VideoCapture(video_path)#動画の読み込み
 
 
-if cap.isOpened()== False:#動画が読み込めたか
-    sys.exit() #プログラムを終了
-
-ret, frame = cap.read()
-#cv2.imshow("video", frame)
-#cv2.waitKey(0) # 何かしらの入力がされるまで待機 
-#入力されると次のdestroywindowに進みwindowが消える
-#cv2.destroyAllWindows()#役目を終えるとimgというwindowを壊す
-#if cv2.waitKey(30) == 27 :#30mms(FPS30より)待つ間に27(Escキー)が押されると動画からbreak
-#   cv2.destroyAllWindows()
-cap.release
 
 
 # In[8]:
@@ -291,7 +280,7 @@ while True:
 #   規格化されたBBoxの情報（確信度、xmin, ymin, xmax, ymax）
 
     #予測結果を含んだframeを返す
-    ssd.show(frame, data_confidence_level=0.2)#確信度の下限をいじると変わる
+    ssd.show(frame, data_confidence_level=0.3)#確信度の下限をいじると変わる
     
     cv2.imshow("video", frame)
 

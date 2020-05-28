@@ -1,0 +1,457 @@
+{
+    "name": "sleep_check_val2",
+    "securityToken": "sleep_check_val2 Token",
+    "sourceConnection": {
+        "name": "sleep_check_val_frame",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNGZkMjZhODAzODg4NGJkMjI0Y2VlOTljM2VjZGYxMmZhMTJjMGY4ZmMxZmRmMDk4ZDlkOWJlN2UwY2QzOWNkZmRlNzQzNmVmYmU5NDk2YTMzMGMwNjRiODM2MDIxOTA1Mzk4YjY2ZDIwMmMxOTFlMjc5ZGFjZGEwMGZhZWM1M2RkOGM1ZjQ0MTUzNGJjZjY0MTc3Yjc1Y2JjYWIxZDdjNjQ0MDIyYmMyZTlmMDMwYzRmMDJiYjJiYzgzZWY0YTAwNWJhYjNjYThkMDE4ZWRkYzk4ZmQ5NmViMzNiNjE5NGUiLCJpdiI6IjNlODI1NmMzYzVlYWIwZGMzZTNiMTYxNWFjOWExYzdiNDdjODc0M2UzNmNkZmQzNCJ9"
+        },
+        "id": "oIfNqMhDJ"
+    },
+    "targetConnection": {
+        "name": "sleep_check_val_annotation2",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNWJkNmYzMmZkM2FmMjNlY2M3OWM3OGRlNjc3N2EwYjljZmViOWQ4MWFiOTI0MjUxOTNmOTY1NDY0NGQ1ODFmOTk1ZDAwOTU2ZDE1OGEzMzZlZjZlMzdiZWM1MTk0OGI3NmE0Yjg3ZGU0NmE1ZGMyZTgxMTA0ZTczNWVmZmI2ZTc4OTFlOWY3M2JkMDQxM2UwMWJhZTYxYjE1ODM1ZGM1NmZjMzkzNjFmYTJlZjM3YWE0OWRlYzY5ZDM1MTgwZTFlYTQyNzA4NjkxM2U0NWQ3NWUxYTIwNTZmYmRmZDEyN2YiLCJpdiI6IjZjOWFlMWJmYTk2MDk5MWZhYTFkZjFhMGI3N2VjODUyOTFkZTExNTE5YTQxMzc1OCJ9"
+        },
+        "id": "QfUUCC1FQ"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "safe",
+            "color": "#5db300"
+        },
+        {
+            "name": "caution",
+            "color": "#e81123"
+        }
+    ],
+    "id": "qaM6aisvi",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "pascalVOC",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMmViMjg4MGNkYTI5YjMwMWViZjg1ZjA4NGQwNTgyMWIwZjI0MzQ5ZDE4MmRkMzdlMDcyMzhlNjVkOWE1MmE3MTgwNzJmYTU0MjQ4Yzc1Mjc4YjY5ZGRmZTAzYWY5NmVhNTNiNTgwMmU4Y2I5NDIzODM4MjA3NjZlMmFjNTY4MTBlZjk5YTA0NjUyN2I0NThmMTkwYTVmMDdkYzA1ZDk0NCIsIml2IjoiYzFlY2Q0NDA5MjA1YzUyZWJlZDIyNGY5MzdiMGVkMmViOWRlMTFhNzRmNTJiMDhmIn0="
+        }
+    },
+    "version": "2.1.0",
+    "lastVisitedAssetId": "ae08252845bf27ffc9eed4c234b3b380",
+    "assets": {
+        "e3bb900308d2ef0e3123cb8f3ff7302d": {
+            "format": "jpg",
+            "id": "e3bb900308d2ef0e3123cb8f3ff7302d",
+            "name": "10588047_01.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588047_01.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b16e22b9e51667fece4f6a110177844e": {
+            "format": "jpg",
+            "id": "b16e22b9e51667fece4f6a110177844e",
+            "name": "10588047_02.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588047_02.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "114e3cf0e0ddace6c2dcccd8a77880a4": {
+            "format": "jpg",
+            "id": "114e3cf0e0ddace6c2dcccd8a77880a4",
+            "name": "10588050_01.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588050_01.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "05d9636c8b31c40b904c2493842d2ebb": {
+            "format": "jpg",
+            "id": "05d9636c8b31c40b904c2493842d2ebb",
+            "name": "10588050_02.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588050_02.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "95e9003771122bb8db19167119134d62": {
+            "format": "jpg",
+            "id": "95e9003771122bb8db19167119134d62",
+            "name": "10588055_01.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588055_01.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2362da99f2f44aa68e7645332de935cd": {
+            "format": "jpg",
+            "id": "2362da99f2f44aa68e7645332de935cd",
+            "name": "10588055_02.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588055_02.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "746222229654afe3c790fa6272ae9d07": {
+            "format": "jpg",
+            "id": "746222229654afe3c790fa6272ae9d07",
+            "name": "10588059_01.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588059_01.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4037398f04efc1bf3eece3abdb387709": {
+            "format": "jpg",
+            "id": "4037398f04efc1bf3eece3abdb387709",
+            "name": "10588059_02.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588059_02.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "48a85715d83116595b2cdfc94d22f0fe": {
+            "format": "jpg",
+            "id": "48a85715d83116595b2cdfc94d22f0fe",
+            "name": "10588071_01.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588071_01.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9a75a926378f309f9ac51cbaae866ada": {
+            "format": "jpg",
+            "id": "9a75a926378f309f9ac51cbaae866ada",
+            "name": "10588071_02.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588071_02.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9c551749665e36e171edbc2b7b9a23d2": {
+            "format": "jpg",
+            "id": "9c551749665e36e171edbc2b7b9a23d2",
+            "name": "10588075_01.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588075_01.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "462c6cf3155d1a77b748b5d6bd68f7eb": {
+            "format": "jpg",
+            "id": "462c6cf3155d1a77b748b5d6bd68f7eb",
+            "name": "10588075_02.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588075_02.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5e58661a30eac5c7315208efd20c5ae6": {
+            "format": "jpg",
+            "id": "5e58661a30eac5c7315208efd20c5ae6",
+            "name": "10588078_01.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588078_01.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9fab92c28d9e4cbbda6605be9c3a6168": {
+            "format": "jpg",
+            "id": "9fab92c28d9e4cbbda6605be9c3a6168",
+            "name": "10588078_02.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588078_02.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "42921f77992ae72dca5f2809003a87e1": {
+            "format": "jpg",
+            "id": "42921f77992ae72dca5f2809003a87e1",
+            "name": "10588081_01.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588081_01.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "17e8ad92f34537afeb1045259ca6043a": {
+            "format": "jpg",
+            "id": "17e8ad92f34537afeb1045259ca6043a",
+            "name": "10588081_02.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588081_02.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d6e02d64df68e0f08a6ffc5b5e67dbb6": {
+            "format": "jpg",
+            "id": "d6e02d64df68e0f08a6ffc5b5e67dbb6",
+            "name": "10588086_01.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588086_01.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7b2be83a2fc30e4d4a7fb5b325242381": {
+            "format": "jpg",
+            "id": "7b2be83a2fc30e4d4a7fb5b325242381",
+            "name": "10588086_02.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588086_02.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d555b86cad6305c78954fd280505ff8b": {
+            "format": "jpg",
+            "id": "d555b86cad6305c78954fd280505ff8b",
+            "name": "10588087_01.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588087_01.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9a708ba30a1e7a97428772c3e168477a": {
+            "format": "jpg",
+            "id": "9a708ba30a1e7a97428772c3e168477a",
+            "name": "10588087_02.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588087_02.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "34a9a0a9b372548ee04d07412076e11c": {
+            "format": "jpg",
+            "id": "34a9a0a9b372548ee04d07412076e11c",
+            "name": "10588099_01.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588099_01.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7d1d62cadafe91f995283e8160bf8902": {
+            "format": "jpg",
+            "id": "7d1d62cadafe91f995283e8160bf8902",
+            "name": "10588099_02.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588099_02.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a51e32bb4de6a7f233be7d1d6a73af46": {
+            "format": "jpg",
+            "id": "a51e32bb4de6a7f233be7d1d6a73af46",
+            "name": "10588103_01.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588103_01.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bb0ed3ce6398befa5d8869c816b9ff58": {
+            "format": "jpg",
+            "id": "bb0ed3ce6398befa5d8869c816b9ff58",
+            "name": "10588103_02.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588103_02.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8bf4aa41957ecf055862778272741a3e": {
+            "format": "jpg",
+            "id": "8bf4aa41957ecf055862778272741a3e",
+            "name": "10588107_01.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588107_01.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "20df312dd368e8df79359c0b27bea858": {
+            "format": "jpg",
+            "id": "20df312dd368e8df79359c0b27bea858",
+            "name": "10588107_02.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588107_02.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9adce4159a23b80b548beca58291cdf8": {
+            "format": "jpg",
+            "id": "9adce4159a23b80b548beca58291cdf8",
+            "name": "10588111_01.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588111_01.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ce6afdbb9ad5bba265026f0641ce4f7": {
+            "format": "jpg",
+            "id": "1ce6afdbb9ad5bba265026f0641ce4f7",
+            "name": "10588111_02.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588111_02.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "84a923f000efd368e92562d7e14dd271": {
+            "format": "jpg",
+            "id": "84a923f000efd368e92562d7e14dd271",
+            "name": "10588119_01.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588119_01.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1143cddb2cb9822251b95441d8f54ef4": {
+            "format": "jpg",
+            "id": "1143cddb2cb9822251b95441d8f54ef4",
+            "name": "10588119_02.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588119_02.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f18328eb20c1906624dbf4cc320f966f": {
+            "format": "jpg",
+            "id": "f18328eb20c1906624dbf4cc320f966f",
+            "name": "10588125_01.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588125_01.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d742ce5d2173de6fbe67662bada0bec2": {
+            "format": "jpg",
+            "id": "d742ce5d2173de6fbe67662bada0bec2",
+            "name": "10588125_02.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588125_02.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1720cb8f57bc8881c17c83725770496e": {
+            "format": "jpg",
+            "id": "1720cb8f57bc8881c17c83725770496e",
+            "name": "10588126_01.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588126_01.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ae08252845bf27ffc9eed4c234b3b380": {
+            "format": "jpg",
+            "id": "ae08252845bf27ffc9eed4c234b3b380",
+            "name": "10588126_02.jpg",
+            "path": "file:C:/Users/yuki/Desktop/%E3%81%86%E3%81%A4%E4%BC%8F%E3%81%9B%E7%99%BA%E8%A6%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/data/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E9%9B%86/val_data/10588126_02.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}

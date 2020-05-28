@@ -731,22 +731,6 @@ class Detect(Function):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # SSDクラスを作成する(改良)
 
 
@@ -772,7 +756,7 @@ class SSD(nn.Module):
         # 推論時はクラス「Detect」を用意します
         if phase == 'inference':
             self.detect = Detect()
-
+   
     def forward(self, x):
         sources = list()  # locとconfへの入力source1～6を格納
         loc = list()  # locの出力を格納
