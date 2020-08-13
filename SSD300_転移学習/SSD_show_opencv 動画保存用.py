@@ -252,17 +252,6 @@ video_path = input('動画のパスを入力してください>')
 cap = cv2.VideoCapture(video_path)#動画の読み込み
 
 
-if cap.isOpened()== False:#動画が読み込めたか
-    sys.exit() #プログラムを終了
-
-ret, frame = cap.read()
-#cv2.imshow("video", frame)
-#cv2.waitKey(0) # 何かしらの入力がされるまで待機 
-#入力されると次のdestroywindowに進みwindowが消える
-#cv2.destroyAllWindows()#役目を終えるとimgというwindowを壊す
-#if cv2.waitKey(30) == 27 :#30mms(FPS30より)待つ間に27(Escキー)が押されると動画からbreak
-#   cv2.destroyAllWindows()
-cap.release
 
 
 # In[8]:
@@ -279,6 +268,15 @@ if cap.isOpened()== False:#動画が読み込めたか
 #import time
 #wait_time = 0.1
 
+#動画保存の設定
+ret, frame = cap.read()
+h, w = frame.shape[:2]#0と1（２の一つ前まで)
+fourcc = cv2.VideoWriter_fourcc(*"XVID")
+import os
+basename = os.path.basename(video_path)
+
+dst = cv2.VideoWriter("output/checked_"+basename, fourcc, 1.0, (w,h))#(出力先　書き込み設定　FPS 解像度)
+
 while True:
 
     ret, frame = cap.read() #動画は１フレームの読み込みと表示の繰り返し
@@ -294,6 +292,8 @@ while True:
     ssd.show(frame, data_confidence_level=0.3)#確信度の下限をいじると変わる
     
     cv2.imshow("video", frame)
+
+    dst.write(frame)  # 指定した設定で書き込み
 
     if cv2.waitKey(30) == 27 :#30mms(FPS30より)待つ間に27(Escキー)が押されると動画からbreak
         break

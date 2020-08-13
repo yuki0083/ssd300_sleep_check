@@ -1,7 +1,10 @@
 data/nwcam/
 data/フレーム集/
+sleep_check-CNN/
 weights/
 .ipynb_checkpoints
 *.pyc
 *.pth
 *.json
+SSD300_転移学習/資料/
+SSD300_転移学習/output
